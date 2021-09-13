@@ -23,10 +23,8 @@ import javax.swing.JOptionPane;
  */
 public class IBMTest {
         public static void main( String[] args ) throws SQLException{
-            
-            Proveedor proveedor=null;
-            ArrayList<Proveedor> proveedorList = null; 
-            SimpleDateFormat formatter = new SimpleDateFormat("dd/MM/yyyy");
+            ArrayList<Proveedor> proveedorList = null; //Listado de proveedores 
+            SimpleDateFormat formatter = new SimpleDateFormat("dd/MM/yyyy"); //Cambiar el formato de la fecha para imprimir en el fichero.
             GestionBD bbdd = new GestionBD();
             Connection connectionIBM = null;
             try{     
