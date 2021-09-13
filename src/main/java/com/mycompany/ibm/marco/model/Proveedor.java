@@ -9,7 +9,7 @@ import java.sql.Date;
 
 /**
  *
- * @author maest
+ * @author Marco Maestre
  */
 public class Proveedor {
         int idProveedor;

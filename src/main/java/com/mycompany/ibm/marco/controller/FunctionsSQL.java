@@ -14,7 +14,7 @@ import java.util.ArrayList;
 
 /**
  *
- * @author maest
+ * @author Marco Maestre
  */
 public class FunctionsSQL {
     

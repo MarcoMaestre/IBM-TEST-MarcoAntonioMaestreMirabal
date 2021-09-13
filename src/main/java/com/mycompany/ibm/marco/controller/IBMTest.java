@@ -11,7 +11,6 @@ import com.mycompany.ibm.marco.util.GestionBD;
 import java.io.BufferedWriter;
 import java.io.File;
 import java.io.FileWriter;
-import java.io.IOException;
 import java.sql.Connection;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
@@ -19,7 +18,7 @@ import javax.swing.JOptionPane;
 
 /**
  *
- * @author maest
+ * @author Marco Maestre
  */
 public class IBMTest {
         public static void main( String[] args ) throws SQLException{
@@ -35,7 +34,7 @@ public class IBMTest {
                 
             }catch ( ArrayIndexOutOfBoundsException e )
             {            
-                //si no existen parametros muestra error y termina programa
+                //Si no existen parametros, muestra error y termina programa
                 JOptionPane.showMessageDialog(null,"Error: No se pasaron argumentos. Necesita un id_cliente.");
                 System.exit(0);
             }

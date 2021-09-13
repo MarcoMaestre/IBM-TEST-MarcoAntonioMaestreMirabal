@@ -7,7 +7,7 @@ package com.mycompany.ibm.marco.model;
 
 /**
  *
- * @author maest
+ * @author Marco Maestre
  */
 
 
