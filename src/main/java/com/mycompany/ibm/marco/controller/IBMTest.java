@@ -42,7 +42,7 @@ public class IBMTest {
             if (!proveedorList.isEmpty()){
                 try {
                     String ruta = "IBM-TEST-MarcoAntonioMaestreMirabal";
-                    String contenido = "Proveedores:";
+                    String contenido = "Proveedores: (Id Proveedor, Nombre, Fecha Alta, Id Cliente";
                     File file = new File(ruta);
                     // Si el archivo no existe es creado
                     if (!file.exists()) {
