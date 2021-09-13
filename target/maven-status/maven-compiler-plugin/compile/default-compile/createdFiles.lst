@@ -1,0 +1,6 @@
+com\mycompany\ibm\marco\controller\IBMTest.class
+com\mycompany\ibm\marco\controller\FunctionsSQL.class
+com\mycompany\ibm\marco\model\Proveedor.class
+com\mycompany\ibm\marco\util\AppConfig.class
+com\mycompany\ibm\marco\util\GestionBD.class
+com\mycompany\ibm\marco\model\Cliente.class
