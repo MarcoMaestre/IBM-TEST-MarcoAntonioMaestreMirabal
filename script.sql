@@ -1,0 +1,1 @@
+SELECT * FROM proveedores WHERE id_cliente = 5;
